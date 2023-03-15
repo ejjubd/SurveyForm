@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <div class="title-and-description">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </div>
+  <form action="" id="survey-form">
+    <fieldset id="first-section">
+        <label id="name-label" for="name"> Name: <input type="text" id="name" placeholder="Enter your name" required ></label>
+        <label id="email-label" for="email"> Email: <input type="email" name="" id="email" placeholder="Enter your Email" required></label>
+        <label id="number-label" for="age"> Age:(optional) <input type="number" id="number" min="12" max="120" placeholder="Age"></label>
+        <label for="dropdown">Which option best describes your current role?
+        <select name="" id="dropdown"> 
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+    </label>
+    </fieldset>
+  </form>
 </body>
 </html>

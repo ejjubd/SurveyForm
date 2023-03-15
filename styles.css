@@ -1,1 +1,29 @@
+body {
+  margin: 0;
+  background:linear-gradient(0deg, rgba(90, 96, 160, 0.3), rgba(86, 96, 174, 0.3)), url(pexels-fauxels-3184315.jpg);
+ background-size:cover;
+ 
+}
+.title-and-description{
+    margin-top: 50px;
+    color: #ffffff;
+}
+#title, #description {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+   
+}
+#survey-form {
+max-width: 800px;
+height: 700px;
+background-color: #381dd6;
+margin: 0 auto;
+margin-top: 40px;
+}
+#first-section{
+    border: none;
+    
+    text-align: center;
 
+}
