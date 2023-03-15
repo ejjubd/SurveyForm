@@ -15,15 +15,38 @@ body {
    
 }
 #survey-form {
-max-width: 800px;
+width: 800px;
 height: 700px;
-background-color: #381dd6;
+background: rgba(44, 57, 78, 0.9);
 margin: 0 auto;
 margin-top: 40px;
+color: white;
 }
 #first-section{
-    border: none;
-    
-    text-align: center;
+border: none;
+padding: 40px 40px 25px 20px;
+width: 770px;
+}
 
+input{
+width:95%;
+padding: 8px;
+display:block;
+margin: 0 auto;
+margin-bottom:25px;
+}
+
+label {
+width: 100%;
+line-height: 40px;
+
+}
+#name-label{
+    
+}
+select {
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+    padding: 8px;
 }
